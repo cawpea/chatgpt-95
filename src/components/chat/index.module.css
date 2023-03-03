@@ -1,0 +1,42 @@
+.container {
+  max-width: 600px;
+  background: #fff;
+  border-radius: 16px;
+  padding: 40px;
+  margin: auto;
+}
+
+.chatMessages {
+  padding: 24px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.chatMessage {
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 12px;
+  text-align: left;
+  white-space: pre-wrap;
+  font-size: 16px;
+}
+
+.chatForm {
+  display: flex;
+  width: 100%;
+  gap: 16px;
+}
+
+.chatFormInput {
+  flex: 1;
+}
+
+.chatFormSubmit {
+  border: none;
+  background: #3e54ac;
+  border-radius: 8px;
+  color: #fff;
+  padding: 12px;
+}
