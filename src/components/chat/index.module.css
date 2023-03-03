@@ -1,12 +1,20 @@
 .container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chatContainer {
+  width: 100%;
   max-width: 600px;
-  background: #fff;
-  border-radius: 16px;
   padding: 40px;
   margin: auto;
 }
 
 .chatMessages {
+  height: 200px;
   padding: 24px 0;
   display: flex;
   flex-direction: column;
@@ -14,9 +22,6 @@
 }
 
 .chatMessage {
-  background: #fff;
-  border: 1px solid #ccc;
-  border-radius: 4px;
   padding: 12px;
   text-align: left;
   white-space: pre-wrap;
@@ -27,6 +32,7 @@
   display: flex;
   width: 100%;
   gap: 16px;
+  margin-top: 16px;
 }
 
 .chatFormInput {
