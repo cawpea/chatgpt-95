@@ -13,6 +13,13 @@
   margin: auto;
 }
 
+.chatLoading {
+  display: flex;
+  align-items: center;
+  height: 200px;
+  padding: 24px 0;
+}
+
 .chatMessages {
   height: 200px;
   padding: 24px 0;
